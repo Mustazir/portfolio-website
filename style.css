@@ -1,0 +1,296 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+/* shared style */
+  .text-primary{
+    color: orange;
+  }
+  .item-title{
+    font-size: 17px;
+    margin-bottom: 5px ;
+    line-height: 20px;
+  }
+  .item-des{
+    font-size: 17px;
+    font-weight: bold;
+    
+  }
+  .text-align{
+    text-align: center;
+  }
+  .res-h-text{
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  /* ----colours */
+.dark1{
+    color: #181818 ;
+}
+
+.dark2{
+    color: #474747;
+}
+.dark3{
+    color : #757575
+}
+
+.btn{
+    cursor: pointer;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 19px 35px;
+    border-radius: 5px;
+    border: none;
+      
+    
+}
+.btn-sec{
+    
+    border: 2px solid #FD6E0A;
+
+    cursor: pointer;
+    
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 19px 35px;
+    border-radius: 5px;
+    
+}
+
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+
+}
+/* nav bar */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+  }
+  .nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+ 
+  nav ul li{
+    list-style: none;
+    margin-right: 50px;
+  }
+  nav ul li a{
+    
+    text-decoration: none;
+    font-size: 20px ;
+  }
+  
+  /* banner Style */
+  .header{
+    background-image: url(assets/developer.png), url(assets/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    margin: 38px 0 130px 23px;
+    background-color: #FFF8F3;
+    
+  }
+  .banner{
+    display:flex ;
+    justify-content: space-between;
+    
+    
+  }
+  .banner-clontent{
+    max-width: 585px;
+    margin: 0 38px 0 230px;
+  }
+  .content{
+    margin-bottom: 30px;
+  }
+  .banner-greeting{
+    font-size: 45px;
+    font-weight: 600 ;
+
+
+  }
+  .banner-title{
+    font-size: 78px;
+    font-weight: bold;
+    
+
+  }
+  .banner-des{
+    font-size: 18px;
+
+  }
+  /* main style */
+  main{
+    /* max-width: 1140px;
+    margin: 0 auto; */
+  }
+
+  /* About section */
+  .about{
+    
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    width: 930px;
+
+  }
+  
+
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #181818;
+    width: 887px;
+    
+    
+
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+   
+    
+    
+  }
+  .about-item{
+    margin-right: 25px;
+
+  }
+
+
+  /* skills */
+  .skills{
+    margin: 0 auto  ;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  
+    
+  }
+  .skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .skill{
+    width: 267px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  /* resume style */
+  .resume{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-colum{
+
+  }
+  .resume-colum-title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .experience{
+
+  }
+  .experience-title{
+    font-size: 25px;
+    font-weight: bold;
+
+
+  }
+  .experience-subtitle{
+    font-size: 20px;
+    font-weight: 600px  ;
+    
+
+  }
+  .experience-description{
+    font-size: 16px;
+
+  }
+  .resume-continer{
+    
+    
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+    width: 1140px;
+    gap: 24px ;
+  }
+  .btn-resume{
+    margin-top: 50px;
+  }
+  .contact{
+    margin-top: 130px;
+    display: flex;
+    background-color: #FFF8F3;
+    justify-content: center;
+    
+    
+  }
+  .contact p{
+    font-size: 16px;
+    width: 526px;
+  }
+  footer{
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+}
+
+.message-box{
+    width: 50%;
+}
+input[type="text"] ,footer input[type="email"] ,footer textarea {
+    display: block;
+    height: 64px;
+    border-radius: 6px;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
