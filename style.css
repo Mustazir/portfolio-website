@@ -294,3 +294,7 @@ input[type="text"] ,footer input[type="email"] ,footer textarea {
     padding: 10px 20px;
     margin-bottom: 24px;
 }
+.profile-img{
+  width: 30%;
+  
+}
